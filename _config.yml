@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.luoml.space/
+url: https://dissipator.github.io   #blog.luoml.space
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
-# theme: landscape maupassant next
+theme: claudia
+# theme: landscape maupassant next cactus claudia
 # theme: yilia
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

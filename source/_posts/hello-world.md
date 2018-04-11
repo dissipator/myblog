@@ -36,3 +36,8 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### ＣＮＡＭＥ
+```bash
+$ echo "blog.lucas.space">source/CNAME
+```
