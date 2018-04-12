@@ -10,6 +10,9 @@ From LML
 
 QQ: 364857492
 Email: 364857492@qq.com
+
+Blog:http://blog.luoml.space
+
 <!-- 来必力City版安装代码 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTYwOC8xMjE0NA==">
 	<script type="text/javascript">
@@ -17,11 +20,11 @@ Email: 364857492@qq.com
        var j, e = d.getElementsByTagName(s)[0];
 
        if (typeof LivereTower === 'function') { return; }
-
+    
        j = d.createElement(s);
        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
        j.async = true;
-
+    
        e.parentNode.insertBefore(j, e);
    })(document, 'script');
 	</script>
