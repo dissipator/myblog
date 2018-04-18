@@ -21,4 +21,5 @@ tags: linux,ORACLE
    2. /etc/hostname
    3. $ORACLE_HOME/network/admin/tnsname.ora
    4. /etc/sysconf/network
-   5. reboot
+
+      ​
