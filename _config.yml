@@ -76,6 +76,32 @@ theme: claudia
 # theme: landscape maupassant next cactus claudia
 # theme: yilia
 
+plugin: hexo-generator-feed
+
+feed:
+type: atom
+path: atom.xml
+# Deployment
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

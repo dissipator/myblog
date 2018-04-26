@@ -38,7 +38,13 @@ index_widgets: 2
 # widget behavior
 archive_type: 'monthly'
 show_count: true
-
+widgets:
+  - recent_posts
+  - category
+  - tag
+  - archive
+  #- weibo
+  - links
 # 评论系统
 # 不要用别人的 uid, 自己去注册一个吧
 use_livere: true
