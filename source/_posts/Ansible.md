@@ -520,19 +520,20 @@ Options:
 #### ansible主机清单的配置
 　　/ect/ansible/hosts,定义方式：
 >直接指明主机地址或主机名
-node3　　
-172.16.47.104
+>node3　　
+>172.16.47.104
 >定义一个主机组，把主机地址或主机名写进去，然后通过组名来调用这个组
-[webservers]　　
-node3
-node4
+>[webservers]　　
+>node3
+>node4
 >如果没有使用公钥，想要使用密码，也可以这样写（适用于第一次登陆控制）
-格式：【主机名】 【主机地址】 【主机密码】  默认是root用户来进行的　　
-　　[keepalived]
-　　keepalived1  ansible_ssh_host=192.168.146.136 ansible_ssh_pass="test"
-　　keepalived2  ansible_ssh_host=192.168.146.137 ansible_ssh_pass="test"
-ansible-doc
-　　ansible-doc -l :获取模块信息
+>格式：【主机名】 【主机地址】 【主机密码】  默认是root用户来进行的　　
+>　　[keepalived]
+>　　keepalived1  ansible_ssh_host=192.168.146.136 ansible_ssh_pass="test"
+>　　keepalived2  ansible_ssh_host=192.168.146.137 ansible_ssh_pass="test"               	
+>　　10.0.1.5 ansible_ssh_private_key_file=ssh_keys/10.0.1.5.key ansible_ssh_user=rootansible-doc
+>
+>　　ansible-doc -l :获取模块信息
 
 ## ansible-doc -s MOD_NAME: 获取指定模块的使用帮助
 ```
@@ -830,4 +831,8 @@ DSC0007.png (64.81 KB, 下载次数: 0)
 下载附件  保存到相册
 
 2017-6-9 08:59 上传
+
+
+
+
 
